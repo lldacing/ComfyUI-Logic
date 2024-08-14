@@ -113,7 +113,7 @@ class Compare:
 
     RETURN_TYPES = ("BOOLEAN",)
 
-    RETURN_NAMES = "BOOLEAN"
+    RETURN_NAMES = ("BOOLEAN",)
 
     FUNCTION = "compare"
 
@@ -153,7 +153,7 @@ class IfExecute:
 
     RETURN_TYPES = (AlwaysEqualProxy("*"),)
 
-    RETURN_NAMES = "?"
+    RETURN_NAMES = ("?", )
 
     FUNCTION = "return_based_on_bool"
 
